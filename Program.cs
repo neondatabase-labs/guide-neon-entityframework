@@ -4,11 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using GuideNeonEF;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddControllers();
-
-// Register the database context
 builder.Services.AddDbContext<ApplicationDbContext>();
 
 var app = builder.Build();
