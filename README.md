@@ -1,3 +1,5 @@
+<img width="250px" src="https://neon.tech/brand/neon-logo-dark-color.svg" />
+
 # Running Neon database migrations in an Entity Framework project
 
 This application is a simple C-sharp application built using the Entity framework and Neon database. It returns a list of authors and books written by them. This project uses the Entity Framework to interact with the Neon database and generate/run migrations. 
